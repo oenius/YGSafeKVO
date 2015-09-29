@@ -1,11 +1,6 @@
-# MAFlowLayout
+# YGSafeKVO
 
 YGKVO is a safe kvo, which could let kvo more stable. It written in Objective-c, based on runtime.
-
-Example
--------
-
-![Framed example screenshot](https://github.com/oenius/MAFlowLayout/blob/master/MAFlowLayoutDemo/demo.gif)
 
 Situation
 -----
