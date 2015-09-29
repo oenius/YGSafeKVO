@@ -24,12 +24,17 @@ Error & Crash
 YGKVO WAY
 -----
 
-All need is to 
+All need is to import
 
 #import "NSObject+YGExtra.h"
 
+YGKVO will care the maybe crash logics
+
 ```objective-c
+
   [self yg_addObserver:self forKeyPath:@"care" options:NSKeyValueObservingOptionNew context:nil];
+  //or even
+  [self addObserver:self forKeyPath:@"care" options:NSKeyValueObservingOptionNew context:nil];
   
   self.care = 1;
   
