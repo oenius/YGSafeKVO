@@ -5,7 +5,7 @@ YGKVO is a safe kvo, which could let kvo more stable. It written in Objective-c,
 Situation
 -----
 
-We may have the bad logic like this, somethings.
+Logic may be bad, sometime.
 
 ```objective-c
   [self addObserver:self forKeyPath:@"care" options:NSKeyValueObservingOptionNew context:nil];
